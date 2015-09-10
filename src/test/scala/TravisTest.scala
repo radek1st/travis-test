@@ -11,4 +11,8 @@ class TravisTest extends FunSuite {
       Set.empty.head
     }
   }
+
+  test("failing test") {
+    assert(1 < 0)
+  }
 }
