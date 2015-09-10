@@ -12,7 +12,4 @@ class TravisTest extends FunSuite {
     }
   }
 
-  test("failing test") {
-    assert(1 < 0)
-  }
 }
